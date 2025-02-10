@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Htable.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SHA1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Htable.h" />
+    <ClInclude Include="SHA1.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
